@@ -12,6 +12,6 @@ def output_array (message,number)
 
 end
 
-def return_string_array (message,number)
+def return_string_array (array)
   
 end
