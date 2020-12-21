@@ -12,7 +12,7 @@ def output_array (message,number)
   i=0
   while i<number
   puts message
-  i=i++
+  i=i+1
 end
 
 def return_string_array (array)
