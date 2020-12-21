@@ -9,7 +9,10 @@ def loop_message_n_times (message,number)
 end 
 
 def output_array (message,number)
-
+  i=0
+  while i<number
+  puts message
+  i=i+1
 end
 
 def return_string_array (array)
