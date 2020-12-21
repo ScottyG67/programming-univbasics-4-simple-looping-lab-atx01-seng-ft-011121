@@ -19,13 +19,10 @@ end
 
 
 string_array = [5, 4, 3, 2, 1]
-binding.pry
 #def return_string_array (array)
     i=0
-  binding.pry
   while i < string_array.length do
-    binding.pry
-    puts string_array(i).to_s
+    puts string_array[i].to_s
     i=i+1
   end
   puts string_array
