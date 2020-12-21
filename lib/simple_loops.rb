@@ -17,13 +17,13 @@ def output_array (message)
   end
 end
 
-def return_string_array (array)
+def return_string_array (message)
     i=0
-  while i < array.length do
-    array[i]=array(i).to_s
+  while i < message.length do
+    message[i]=message(i).to_s
     i=i+1
   end
-  puts array
+  puts message
 end
 
 array = [5, 4, 3, 2, 1]
