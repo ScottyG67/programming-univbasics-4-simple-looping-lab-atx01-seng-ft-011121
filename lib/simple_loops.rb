@@ -8,10 +8,10 @@ def loop_message_n_times (message,number)
   number.times {puts message}
 end 
 
-def output_array (message,number)
+def output_array (message)
   i=0
-  while i<number do
-    puts message[i]
+  while i<message.length do
+    puts message(i)
     i=i+1
   end
 end
