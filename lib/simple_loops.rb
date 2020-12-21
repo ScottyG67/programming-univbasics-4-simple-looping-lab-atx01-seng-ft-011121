@@ -22,5 +22,9 @@ def return_string_array (array)
     array[i]=array(i).to_s
     i=i+1
   end
-  
+  puts array
 end
+
+array = [5, 4, 3, 2, 1]
+
+return_string_array (array)
