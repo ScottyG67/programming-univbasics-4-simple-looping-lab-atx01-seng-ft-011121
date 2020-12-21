@@ -25,7 +25,7 @@ binding.pry
   binding.pry
   while i < string_array.length do
     binding.pry
-    string_array[i]=string_array(i).to_s
+    puts string_array(i).to_s
     i=i+1
   end
   puts string_array
