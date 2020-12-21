@@ -17,15 +17,14 @@ def output_array (message)
   end
 end
 
-def return_string_array (array)
+
+array = [5, 4, 3, 2, 1]
+#def return_string_array (array)
     i=0
   while i < array.length do
     array[i]=array(i).to_s
     i=i+1
   end
   puts array
-end
+#end
 
-array = [5, 4, 3, 2, 1]
-
-return_string_array (array)
