@@ -19,7 +19,7 @@ end
 
 
 #string_array = [5, 4, 3, 2, 1]
-def return_string_array (array)
+def return_string_array (string_array)
     i=0
   while i < string_array.length do
     string_array[i]=string_array[i].to_s
