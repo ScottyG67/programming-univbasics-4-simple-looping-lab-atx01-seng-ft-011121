@@ -10,8 +10,8 @@ end
 
 def output_array (message,number)
   i=0
-  while i<number
-    puts message(i)
+  while i<number do
+    puts message[i]
     i=i+1
   end
 end
